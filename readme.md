@@ -3,13 +3,13 @@
 - node js 설치 필요/설치 확인
 
 ---
-
+~~~
 C:\Program Files\nodejs>node -v
 v16.14.2
 
 C:\Program Files\nodejs>npm -v
 8.6.0
-
+~~~
 ---
 
 ## 필요 패키지 설치
@@ -17,17 +17,17 @@ C:\Program Files\nodejs>npm -v
 # 폴더를 만들고 필요한 패키지를 설치한다
 
 ---
-
+~~~
 C:\Program Files\nodejs>mkdir gql_test
 C:\Program Files\nodejs>cd gql_test
 C:\Program Files\nodejs\gql_test>npm init
-
+~~~
 ---
 
 # 필요 패키지 설치 방안 1)
 
 패키지에 선언된 라이브러리를 선언하고 패키지를 일괄 설치한다
-
+~~~
 - package.json에 선언된 패키지
   "apollo-server-express": "^1.4.0", // GraphQL gateway 서버
   "body-parser": "^1.18.3", // parser
@@ -38,7 +38,7 @@ C:\Program Files\nodejs\gql_test>npm init
   "notarealdb": "^0.2.2" // json 파일을 db처럼 활용하기 위한 패키지
 
 - npm install <-- package.json에 정의된 dependencies를 설치한다
-
+~~~
 # 필요 패키지 설치 방안 2)
 
 - 필요한 패키지를 하나씩 설치하는 방법
