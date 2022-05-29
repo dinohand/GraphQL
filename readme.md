@@ -101,9 +101,10 @@ Server started on port 9000
 3. 결과는 json 형태로 리턴한다
 
 ## 주요 구성요소
-
+~~~
 server.js - 메인 모듈, gateway 서버, resolver와 db schema 연결
 resolver.js - 요청된 query를 수행하는 모듈
 db -- db 정의 모듈
 Schema.graphql -- 데이터 구조를 정의
 ./db/xxx.json -- json 형태 데이터 파일
+~~~
