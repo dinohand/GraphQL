@@ -56,7 +56,7 @@ notarealdb 가 설치되지 않았다면 npm install notarealdb --save로 모듈
   npm install notarealdb <-- json 형태로 정의된 파일을 db로 인식하게 하여준다. 간단한 정보 관리 시 편리함
 
 ## 폴더 구조
-
+~~~
 app /
 package.json
 db.js
@@ -66,6 +66,7 @@ colleges.json
 resolvers.js
 schema.graphql
 server.js
+~~~
 
 ## 실행방법
 
